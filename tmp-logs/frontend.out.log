@@ -28,3 +28,6 @@ Creating turbopack project {
  POST /api/auth/register 200 in 658ms (next.js: 1929µs, application-code: 656ms)
  POST /api/auth/login 200 in 207ms (next.js: 1879µs, application-code: 205ms)
  POST /api/auth/logout 200 in 9ms (next.js: 2ms, application-code: 7ms)
+ GET / 200 in 57ms (next.js: 4ms, application-code: 53ms)
+ GET /api/auth/session 200 in 13ms (next.js: 3ms, application-code: 10ms)
+ POST /api/auth/login 200 in 2.4s (next.js: 1962µs, application-code: 2.4s)

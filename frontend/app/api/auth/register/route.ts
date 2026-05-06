@@ -4,7 +4,8 @@ import { getBackendApiUrl, parseBackendResponse } from '@/lib/auth';
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const response = await fetch(`${getBackendApiUrl()}/auth/register`, {
+    const backendUrl = getBackendApiUrl();
+    const response = await fetch(`${backendUrl}/auth/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
