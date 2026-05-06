@@ -1,0 +1,12 @@
+.env
+*.env
+node_modules/
+dist/
+.next/
+coverage/
+src/generated/prisma/
+backend/src/generated/prisma/
+frontend/.next/
+backend/dist/
+backend/node_modules/
+frontend/node_modules/
