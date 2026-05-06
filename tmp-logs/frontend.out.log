@@ -1,0 +1,30 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.128.4:3000
+✓ Ready in 548ms
+Creating turbopack project {
+  dir: 'C:\\Users\\Kevin\\Desktop\\code_projects\\todo-app\\frontend',
+  testMode: true
+}
+
+ POST /api/auth/register 400 in 1212ms (next.js: 283ms, application-code: 929ms)
+ POST /api/auth/login 401 in 250ms (next.js: 94ms, application-code: 156ms)
+ GET /api/auth/session 200 in 121ms (next.js: 114ms, application-code: 7ms)
+ POST /api/auth/logout 200 in 128ms (next.js: 106ms, application-code: 22ms)
+ GET /api/auth/session 200 in 12ms (next.js: 2ms, application-code: 10ms)
+ POST /api/auth/register 200 in 2.1s (next.js: 3ms, application-code: 2.1s)
+ POST /api/auth/login 200 in 208ms (next.js: 2ms, application-code: 206ms)
+ GET /api/auth/session 200 in 166ms (next.js: 3ms, application-code: 163ms)
+ POST /api/auth/logout 200 in 23ms (next.js: 2ms, application-code: 21ms)
+ GET /api/auth/session 200 in 12ms (next.js: 1726µs, application-code: 11ms)
+ GET / 200 in 2.0s (next.js: 1815ms, application-code: 230ms)
+ GET / 200 in 59ms (next.js: 3ms, application-code: 56ms)
+ GET /api/auth/session 200 in 16ms (next.js: 3ms, application-code: 13ms)
+ POST /api/auth/register 400 in 12ms (next.js: 2ms, application-code: 10ms)
+ POST /api/auth/register 200 in 658ms (next.js: 1929µs, application-code: 656ms)
+ POST /api/auth/login 200 in 207ms (next.js: 1879µs, application-code: 205ms)
+ POST /api/auth/logout 200 in 9ms (next.js: 2ms, application-code: 7ms)
